@@ -1,18 +1,51 @@
-body { font-family: sans-serif; background: #f9f9f9; padding: 20px; }
+body {
+  font-family: sans-serif;
+  background: #f9f9f9;
+  padding: 20px;
+}
 
-h1 { text-align: center; }
+h1 {
+  text-align: center;
+}
 
-.semestre { margin-bottom: 30px; }
+.semestre {
+  margin-bottom: 30px;
+}
 
-.semestre h2 { background: #eee; padding: 10px; border-left: 5px solid #d48aaa; }
+.semestre h2 {
+  background: #eee;
+  padding: 10px;
+  border-left: 5px solid #d48aaa;
+}
 
-.ramos { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+.ramos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
 
-.ramo { padding: 10px; border-radius: 8px; cursor: pointer; min-width: 180px; text-align: center; user-select: none; transition: 0.3s; border: 2px solid transparent; }
+.ramo {
+  padding: 10px;
+  border: 2px solid #d48aaa;
+  background-color: #f8c1d8;
+  border-radius: 8px;
+  cursor: pointer;
+  min-width: 180px;
+  text-align: center;
+  user-select: none;
+  transition: 0.3s;
+}
 
-/* Colores por área */ .ramo.contable { background-color: #f8c1d8; border-color: #d48aaa; } .ramo.matematica { background-color: #c1f8d1; border-color: #71c794; } .ramo.economica { background-color: #c1e8f8; border-color: #7dbdd6; } .ramo.administrativa { background-color: #e1c1f8; border-color: #b671d6; } .ramo.juridica { background-color: #f8d1b1; border-color: #d69a71; } .ramo.metodologia { background-color: #f8b1b1; border-color: #d67171; }
+.ramo.aprobado {
+  background-color: #e65c9b;
+  color: white;
+  text-decoration: line-through;
+}
 
-/* Aprobado tonalidades oscuras */ .ramo.contable.aprobado { background-color: #e65c9b; color: white; text-decoration: line-through; } .ramo.matematica.aprobado { background-color: #4caf50; color: white; text-decoration: line-through; } .ramo.economica.aprobado { background-color: #2196f3; color: white; text-decoration: line-through; } .ramo.administrativa.aprobado { background-color: #9c27b0; color: white; text-decoration: line-through; } .ramo.juridica.aprobado { background-color: #ff9800; color: white; text-decoration: line-through; } .ramo.metodologia.aprobado { background-color: #f44336; color: white; text-decoration: line-through; }
-
-.ramo.bloqueado { background-color: #ccc; border-color: #aaa; color: #777; cursor: not-allowed; }
-
+.ramo.bloqueado {
+  background-color: #ccc;
+  border-color: #aaa;
+  color: #777;
+  cursor: not-allowed;
+}
