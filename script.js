@@ -1,4 +1,3 @@
-// script.js
 const materias = [
   { nombre: 'CONTABILIDAD I', semestre: 1, area: 'rosado', prereqs: [] },
   { nombre: 'CONTABILIDAD II', semestre: 2, area: 'rosado', prereqs: ['CONTABILIDAD I'] },
